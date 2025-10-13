@@ -24,6 +24,10 @@ export default function Page() {
             <a href="/test4-generateMatadata">Test 4: generateMetadata</a>
             <br />Using generateMetadata to generate metadata
           </li>
+          <li>
+            <a href="/test5-metadata-property">Test 5: metadata property</a>
+            <br />Using metadata property to set metadata
+          </li>
       </ul>
       
       <h2>How to Test:</h2>
