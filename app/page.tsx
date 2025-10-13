@@ -15,11 +15,15 @@ export default function Page() {
         <li>
           <a href="/test2-no-duplicates">Test 2: No Duplicates</a>
           <br />Only layout.tsx has metadata, page has none
-        </li>
-        <li>
-          <a href="/test3-partial-duplicates">Test 3: Partial Duplicates</a>
-          <br />Title duplicated, some tags unique to layout, some unique to page
-        </li>
+          </li>
+          <li>
+            <a href="/test3-partial-duplicates">Test 3: Partial Duplicates</a>
+            <br />Title duplicated, some tags unique to layout, some unique to page
+          </li>
+          <li>
+            <a href="/test4-generateMatadata">Test 4: generateMetadata</a>
+            <br />Using generateMetadata to generate metadata
+          </li>
       </ul>
       
       <h2>How to Test:</h2>
