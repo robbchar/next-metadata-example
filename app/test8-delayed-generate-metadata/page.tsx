@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 
 export async function generateMetadata(): Promise<Metadata> { 
   // Actually wait for 1 second (simulating slow API call)
-  // await new Promise(resolve => setTimeout(resolve, 1000))
-  // console.log('generateMetadata done after 1 second delay');
+  await new Promise(resolve => setTimeout(resolve, 1000))
+  console.log('generateMetadata done after 1 second delay');
 
   return {
     title: '(page-promise) Test App',
