@@ -28,6 +28,14 @@ export default function Page() {
             <a href="/test5-metadata-property">Test 5: metadata property</a>
             <br />Using metadata property to set metadata
           </li>
+          <li>
+            <a href="/test6-instant-promise">Test 6: Instant Promise + Suspense</a>
+            <br />Using Instant Promise + Suspense to set metadata
+          </li>
+          <li>
+            <a href="/test7-promise-suspense">Test 7: Promise + Suspense</a>
+            <br />Using Delayed Promise + Suspense to set metadata
+          </li>
       </ul>
       
       <h2>How to Test:</h2>

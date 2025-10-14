@@ -3,11 +3,6 @@
 export default function Page() {
   return (
     <>
-      <title>Page Title (Test 1)</title>
-      <meta name="description" content="Page description" />
-      <meta property="og:title" content="Page OG Title" />
-      <meta property="og:description" content="Page OG Description" />
-      <meta name="twitter:card" content="Page Twitter Card" />
       
       <div>
         <h1>Test 1: Duplicates</h1>
@@ -19,6 +14,11 @@ export default function Page() {
           <li>Compare with curl output</li>
         </ul>
       </div>
+      <title>Page Title (Test 1)</title>
+      <meta name="description" content="Page description" />
+      <meta property="og:title" content="Page OG Title" />
+      <meta property="og:description" content="Page OG Description" />
+      <meta name="twitter:card" content="Page Twitter Card" />
     </>
   )
 }
